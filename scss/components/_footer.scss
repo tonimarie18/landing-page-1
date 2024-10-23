@@ -1,0 +1,31 @@
+footer {
+    background: var(--blue-900);
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+    padding-inline: 20px;
+    align-items: center
+}
+
+footer img {
+    width: 4.9375em ;
+}
+
+
+@media (width >= 50.625em) {
+    footer {
+        padding-inline: 44px;
+    }
+}
+
+
+
+@media (width >= 75em) {
+    footer img {
+        width: 6.9375em ;
+    }
+    footer {
+        padding-block: 39.5px;
+        padding-inline: 160px;
+    }
+}

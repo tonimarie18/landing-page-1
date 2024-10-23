@@ -10,9 +10,13 @@ body {
     margin: 0;
     font-weight: 500;
     font-family: 'Plus Jakarta Sans', sans-serif;
+ 
+
 
 }
-
+ main {
+    overflow: clip;
+ }
 
 h1, 
 h2, 
@@ -28,7 +32,19 @@ img{
     max-width: 100%;
     height: auto;
 }
+ img.logo:hover {
+    opacity: 0.75;
+ }
 
+ img.logo{
+    transition: opacity 150ms ease-in-out;
+ }
 a{
     text-decoration: none;
+}
+
+p {
+    max-width: 35ch;
+    color: var(--grey-100);
+    line-height: 1.5;
 }

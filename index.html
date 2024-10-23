@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header wrapper">
       <a href="/">
         <img class="logo" src="/assets/logo-dark.svg" alt="Skilled Home" srcset="" width="111" height="28">
       </a>
@@ -19,7 +19,7 @@
 
     <main>
 
-      <section class="hero">
+      <section class="hero wrapper">
         <div class="hero__text">
           <h1>  Maximize skill, minimize budget</h1>
           <p> Our modern courses across a range of in-demand skills will give you the 
@@ -31,31 +31,32 @@
                <!-- Desktop-->
                <source media="(min-width: 75em )" srcset="/assets/image-hero-desktop@2x.webp" width="2092" height="1876" >
                <!-- Tablet-->
-             <source media="(min-width: 50em )" srcset="/assets/image-hero-tablet@2x.webp" width="695" height="723" >
+             <source media="(min-width: 50.625em )" srcset="/assets/image-hero-tablet@2x.webp" width="695" height="723" >
             <img src="/assets/image-hero-mobile@2x.webp" alt="woman with coffee and laptop with labels reading Members 29k, Course hours 1,451" width="870" height="818">
           </picture>
       </section>
 
-      <section class="courses"> 
+      <section class="courses "> 
+        <div class="wrapper">
           <div class="block title">
             <h2>  Check out our most popular courses!</h2>
-          </div>
+          </div>  
 
-          <div class="block card">
+          <div class="block course">
             <img src="/assets/icon-animation.svg" alt="" width="56" height="56">
             <h3> Animation</h3>
             <p> Learn the latest animation techniques to create stunning motion design and captivate your audience.
               </p>
               <a href="/" class="pink"> Get Started</a>
           </div>
-          <div class="block card">
+          <div class="block course">
             <img src="/assets/icon-design.svg" alt="" width="56" height="56">
             <h3>Design</h3>
             <p>  Create beautiful, usable interfaces to help shape the future of how the web looks.
              </p>
               <a href="/" class="pink"> Get Started</a>
           </div>
-          <div class="block card">
+          <div class="block course">
             <img src="/assets/icon-photography.svg" alt="" width="56" height="56">
             <h3> Photography</h3>
             <p>   Explore critical fundamentals like lighting, composition, and focus 
@@ -63,7 +64,7 @@
               </p>
               <a href="/" class="pink"> Get Started</a>
           </div>
-          <div class="block card">
+          <div class="block course">
             <img src="/assets/icon-crypto.svg" alt="" width="56" height="56">
             <h3> Crypto</h3>
             <p>   All you need to know to get started investing in crypto. Go from beginner 
@@ -71,7 +72,7 @@
               </p>
               <a href="/" class="pink"> Get Started</a>
           </div>
-          <div class="block card">
+          <div class="block course">
             <img src="/assets/icon-business.svg" alt="" width="56" height="56">
             <h3>Business</h3>
             <p>   A step-by-step playbook to help you start, scale, and sustain your business 
@@ -79,13 +80,16 @@
              </p>
               <a href="/" class="pink"> Get Started</a>
           </div>
+        </div>
       </section>
     </main>
 <footer> 
+
   <a href="/">
     <img src="/assets/logo-light.svg" alt="Skilled Home" srcset="" width="111" height="28">
   </a>
   <a href="/" class="button purple">Get Started </a>
+
 </footer>
 </body>
 </html>
